@@ -43,7 +43,7 @@
 
 
 ## Deploy
-<p><a href="https://heroku.com/deploy?template=https://github.com/saminsumesh/TeamSakura"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://telegram.dog/XTZ_HerokuBot?start=dmxvZ2dlcmRldmVuL0RLQk9UeEF1dG9maWx0ZXJCb3QgZGV2ZWxvcA"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 <details><summary>Deploy To VPS</summary>
 <p>
