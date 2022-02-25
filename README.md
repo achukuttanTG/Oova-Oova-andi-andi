@@ -1,12 +1,9 @@
 
 <h1 align="center">
-  <b>DK BOTX AUTOFILTER</b>
+  <b>DK BOTX </b>
 </h1>
 
 ## This Bot May Look Like [Mwk_AutofilterBot](https://t.me/Mwk_Autofilterbot) And Its Because I Like Its UI, That's All</b>
-
-
-# Wait for v8.0 Build with customised Autofilter 🥺
 
 # 🤧 Fork This Repo For Now
 * `Fork This Repo For Now There Are Some Bugs Needed To Be Fixed`
