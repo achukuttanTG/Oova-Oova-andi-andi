@@ -1,14 +1,10 @@
-<p align="center">
-  <img src="sakura/logo.jpg" alt="Sakura Logo">
-</p>
+
 <h1 align="center">
-  <b>Sakura AutoFilter</b>
+  <b>DK BOTX AUTOFILTER</b>
 </h1>
 
 ## This Bot May Look Like [Mwk_AutofilterBot](https://t.me/Mwk_Autofilterbot) And Its Because I Like Its UI, That's All</b>
 
-# [Sakura](https://t.me/SakuraFilterBot) is an powerfull Autofilter bot that can be used in your groups 
-`Am not recommending you to use the bot in normal groups`
 
 # Wait for v8.0 Build with customised Autofilter 🥺
 
@@ -17,8 +13,8 @@
 
 # Credits
 * `Base Repo Used In The Build - Eva Maria`
-* © [PaulWalker](https://telegram.dog/PaulWalker_TG)
-* Powered By [XD_Botz](https://telegram.dog/xd_botz)
+* © [dk [OFLINE]](https://telegram.dog/dk_assist_bot)
+* Powered By [DK BOTx](https://telegram.dog/dk_botx)
 * [Subin Ps](https://telegram.dog/subin_works)
 
 ## Features
@@ -48,8 +44,6 @@
 - [x] Random pics
 - [x] Purge
 
-# Behind the scene 
-`PaulWalker_TG`
 
 ## Deploy
 <p><a href="https://heroku.com/deploy?template=https://github.com/saminsumesh/TeamSakura"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
@@ -57,7 +51,7 @@
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/SaminSumesh/TeamSakura
+git clone https://github.com/vloggerdeven/dkbotxautofilterbot
 # Install Packages
 # pip3 install -r requirements.txt
 Edit `info.py` with variables as given below then run bot
@@ -92,6 +86,3 @@ python3 bot.py
 • /channel - to get list of total connected channels
 • /broadcast - to broadcast a message to all users
 ```
-## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/Sakurabotsupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/SakurabotUpdates)
