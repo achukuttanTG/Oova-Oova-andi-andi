@@ -65,7 +65,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/SakuraBotUSupport')
+            InlineKeyboardButton('Support', url=f'https://t.me/dk_botx')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -103,7 +103,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Succesfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/SakuraBotSupport')
+            InlineKeyboardButton('Support', url=f'https://t.me/dk_botx')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
