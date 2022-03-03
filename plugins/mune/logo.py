@@ -1,7 +1,6 @@
 from pyrogram import Client, filters
 from info import ADMINS
 import os 
-from PIL import Image, ImageDraw, ImageFont
 from info import (
     COMMAND_HAND_LER
 )
