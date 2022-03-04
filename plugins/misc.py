@@ -216,9 +216,9 @@ async def help(client, message):
 @Client.on_message(filters.command("about"))
 async def aboutme(client, message):
         buttons= [[
-            InlineKeyboardButton('𝖲𝗈𝗎𝗋𝖼𝖾', url='https://t.me/ippotharam34'),
-            InlineKeyboardButton('𝖬𝗈𝗏𝗂𝖾𝗌', url='https://t.me/fbm_movies'),
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ᴅᴋ ʙᴏᴛx', url='https://t.me/dk_botx'),
+            InlineKeyboardButton('ᴍᴏᴠɪᴇs', url='https://t.me/s_movie_official_updates'),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
