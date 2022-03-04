@@ -33,8 +33,8 @@ class script(object):
 𝖬𝖺𝖽𝖾 𝖻𝗒 @DK_BOTx ❤️
 """
     ABOUT_TXT = """
-○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : DKBOTx AutoFilter
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/dk_assist_bot'>dk [OFLINE]</a>
+○ 𝖬𝗒 𝖭𝖺𝗆e : {}
+○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/dk_botx'>𝗗𝗞 𝗕𝗢𝗧𝘅</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
