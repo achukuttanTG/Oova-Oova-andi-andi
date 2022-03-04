@@ -5,7 +5,7 @@
 
 ## This Bot May Look Like [Mwk_AutofilterBot](https://t.me/Mwk_Autofilterbot) And Its Because I Like Its UI, That's All</b>
 
-# 𝙐𝙎𝙀 𝙏𝙃𝙄𝙎 𝙍𝙀𝙋𝙊. 𝘼𝙎 `UPSTREAM_REPO` 𝙄𝙉 𝙔𝙊𝙐𝙍 𝘼𝙋𝙋 𝙊𝙉 𝙃𝙀𝙍𝙊𝙆𝙐 . 𝘼𝙁𝙏𝙀𝙍 𝘼𝘿𝘿𝙄𝙉𝙂 𝙏𝙃𝙄𝙎 𝙍𝙀𝙋𝙊 𝘼𝙉𝘿 𝙍𝙀𝙎𝙏𝘼𝙍𝙏 𝙏𝙃𝙀 𝘼𝙋𝙋 𝘿𝙔𝙉𝙊 𝙏𝙊 𝙂𝙀𝙏 𝙄𝙏 𝙊𝙉.
+# ᴜsᴇ ᴛʜɪs ʀᴇᴘᴏ ᴀs ʏᴏᴜʀ `UPSTREAM_REPO` ɪɴ ʜᴇʀᴏᴋᴜ ᴀᴘᴘ. ᴀғᴛᴇʀ ᴀᴅᴅɪɴɢ ᴛʜɪs ʀᴇᴘᴏ , ʀᴇsᴛᴀʀᴛ ᴀʟʟ ᴅʏɴᴏs .
   
 # 🤧 Fork This Repo For Now
 * `Fork This Repo For Now There Are Some Bugs Needed To Be Fixed`
@@ -43,8 +43,9 @@
 - [x] Random pics
 - [x] Purge
 
+ᴡᴀɪᴛ ғᴏʀ ʟᴀᴛᴇsᴛ ᴜᴘᴅᴀᴛᴇ ɪғ ʏᴏᴜ ᴅᴏɴᴛ ʟɪᴋᴇ ᴛʜɪs . ᴛᴇsᴛᴇᴅ ᴠᴇʀsɪᴏɴ , just fork and use as upstream repo .
 
-## Deploy
+## Deploy [NO NEED TO DEPLOY]
 <p><a href="https://telegram.dog/XTZ_HerokuBot?start=dmxvZ2dlcmRldmVuL0RLQk9UeEF1dG9maWx0ZXJCb3QgZGV2ZWxvcA"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 <details><summary>Deploy To VPS</summary>
