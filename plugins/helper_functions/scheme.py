@@ -1,7 +1,6 @@
 # Closed Source
 
 import asyncio
-import aiofiles
 import os
 from io import BytesIO
 from pyrogram import Client, filters
