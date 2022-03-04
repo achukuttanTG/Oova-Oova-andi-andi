@@ -5,6 +5,8 @@
 
 ## This Bot May Look Like [Mwk_AutofilterBot](https://t.me/Mwk_Autofilterbot) And Its Because I Like Its UI, That's All</b>
 
+# 𝙐𝙎𝙀 𝙏𝙃𝙄𝙎 𝙍𝙀𝙋𝙊. 𝘼𝙎 [x] UPSTREAM_REPO 𝙄𝙉 𝙔𝙊𝙐𝙍 𝘼𝙋𝙋 𝙊𝙉 𝙃𝙀𝙍𝙊𝙆𝙐 . 𝘼𝙁𝙏𝙀𝙍 𝘼𝘿𝘿𝙄𝙉𝙂 𝙏𝙃𝙄𝙎 𝙍𝙀𝙋𝙊 𝘼𝙉𝘿 𝙍𝙀𝙎𝙏𝘼𝙍𝙏 𝙏𝙃𝙀 𝘼𝙋𝙋 𝘿𝙔𝙉𝙊 𝙏𝙊 𝙂𝙀𝙏 𝙄𝙏 𝙊𝙉.
+  
 # 🤧 Fork This Repo For Now
 * `Fork This Repo For Now There Are Some Bugs Needed To Be Fixed`
 
@@ -12,7 +14,7 @@
 * `Base Repo Used In The Build - Eva Maria`
 * © [dk [OFLINE]](https://telegram.dog/dk_assist_bot)
 * Powered By [DK BOTx](https://telegram.dog/dk_botx)
-* [Subin Ps](https://telegram.dog/subin_works)
+
 
 ## Features
 - [x] Auto Filter
