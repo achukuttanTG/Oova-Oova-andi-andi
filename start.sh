@@ -8,5 +8,5 @@ else
 fi
 cd /TeamSakura
 pip3 install -U -r requirements.txt
-echo "Starting Bot...."
+echo "Starting Bot.... made by 𝘿𝙆 𝘽𝙊𝙏𝙭"
 python3 bot.py
