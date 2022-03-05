@@ -51,7 +51,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
 P_TTTI_SHOW_OFF = bool((environ.get('P_TTTI_SHOW_OFF', True)))
 IMDB = bool((environ.get('IMDB', True)))
 SINGLE_BUTTON = bool((environ.get('SINGLE_BUTTON', False)))
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", 📝@DK_BOTx : <code>{file_name}</code> 
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", @DK_BOTx : <code>{file_name}</code> 
 
 <b>🔰👉 കൂടുതൽ സിനിമകൾക്കും മറ്റു വിവരങ്ങൾക്കുമായി ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യൂ<b>
 
