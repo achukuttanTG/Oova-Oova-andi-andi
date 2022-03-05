@@ -48,16 +48,10 @@ TG_MAX_SELECT_LEN = 100
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
-P_TTTI_SHOW_OFF = bool((environ.get('P_TTTI_SHOW_OFF', True)))
+P_TTTI_SHOW_OFF = bool((environ.get('P_TTTI_SHOW_OFF', False)))
 IMDB = bool((environ.get('IMDB', True)))
 SINGLE_BUTTON = bool((environ.get('SINGLE_BUTTON', False)))
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", @DK_BOTx : <code>{file_name}</code> 
-
-<b>🔰👉 കൂടുതൽ സിനിമകൾക്കും മറ്റു വിവരങ്ങൾക്കുമായി ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യൂ<b>
-
-🌟༺ ──•◈•─ ─•◈•──༻🌟
-➧ <b>[S FILE UPDATES ](https://t.me/s_movie_official_updates)</b>
-➧ <b>[S MOVIE CHATS](https://t.me/s_movie_CHATS_org)</b>)
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", none)
 LONG_IMDB_DESCRIPTION = bool(environ.get("LONG_IMDB_DESCRIPTION", True))
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
