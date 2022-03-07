@@ -67,7 +67,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton("ʀᴇғʀᴇsʜ", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Join Our Movies Group**",
+            text="**𝖩𝗈𝗂𝗇 𝗆𝗒 𝖼𝗁𝖺𝗇𝗇𝖾𝗅 𝗍𝗈 𝗀𝖾𝗍 𝗒𝗈𝗎𝗋 𝗋𝖾𝗊𝗎𝖾𝗌𝗍 ; 𝖩𝗈𝗂𝗇 𝖺𝗇𝖽 𝗋𝖾𝖿𝗋𝖾𝗌𝗁 !**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
