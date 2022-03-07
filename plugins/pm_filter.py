@@ -71,7 +71,7 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+        return await query.answer("𝗣𝗢𝗗𝗔 𝗞𝗔𝗟𝗟𝗔😜", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -197,7 +197,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("Thats not for you!!",show_alert=True)
+                await query.answer("𝖣𝖮𝖭𝖳 𝖪𝖠𝖨𝖸𝖨𝖳𝖳 𝖵𝖠𝖠𝖱𝖠𝖫 , 𝖲𝖤𝖠𝖱𝖢𝖧 𝖸𝖮𝖴𝖱𝖲𝖤𝖫𝖥 𝖠𝖭𝖣 𝖳𝖠𝖪𝖤!!",show_alert=True)
 
 
     elif "groupcb" in query.data:
