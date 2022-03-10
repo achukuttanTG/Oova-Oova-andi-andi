@@ -174,7 +174,7 @@ async def stickerid(bot, message):
     else: 
        await message.reply("ɴɪᴄᴇ,ɪᴛs ɴᴏᴛ ᴀ sᴛɪᴄᴋᴇʀ")
 
-@Client.on_message(filters.command("help"))
+@Client.on_message(filters.command("help / message specified"))
 async def help(client, message):
         buttons = [[
             InlineKeyboardButton('𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='hud'),
