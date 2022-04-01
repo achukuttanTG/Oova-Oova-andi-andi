@@ -767,3 +767,5 @@ async def auto_filter(client, message):
         else:
             await message.reply_text(f"<b>Requested Movie {search} ‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
 
+            await asyncio.sleep(seconds)
+            await msg.delete(20)
