@@ -1,5 +1,4 @@
 from pyrogram import filters
-from aiohttp import ClientSession
 from pyrogram import Client as bot
 from plugins.function import make_carbon
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
