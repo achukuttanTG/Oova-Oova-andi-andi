@@ -8,7 +8,6 @@ from re import findall
 from re import sub as re_sub
 from sys import executable
 
-import speedtest
 from PIL import Image
 from pyrogram.types import Message
 
