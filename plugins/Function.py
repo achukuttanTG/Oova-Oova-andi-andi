@@ -7,7 +7,7 @@ from random import randint
 from re import findall
 from re import sub as re_sub
 from sys import executable
-from aiohttp import ClientSession
+
 
 import aiofiles
 import speedtest
