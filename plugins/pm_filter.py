@@ -5,7 +5,7 @@ import ast
 from Script import script
 import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, make_inactive
-from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTTI_SHOW_OFF, IMDB, SINGLE_BUTTON, SPELL_CHECK_REPLY, DELETE_TIME
+from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTTI_SHOW_OFF, IMDB, SINGLE_BUTTON, SPELL_CHECK_REPLY
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
@@ -767,20 +767,4 @@ async def auto_filter(client, message):
         else:
             await message.reply_text(f"<b>Requested Movie {search} ‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
 
-            fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
-                                      reply_markup=InlineKeyboardMarkup(btn))      
-            pic = imdb.get('poster')
-            poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            fmsg = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
-        
-            logger.exception(e)
-            fmsg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-    else:
-        fmsg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-    
-    await asyncio.sleep(DELETE_TIME)
-    await fmsg.delete()
-   
-    if spoll:
-        await msg.message.delete()
-
+            
