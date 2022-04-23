@@ -767,7 +767,6 @@ async def auto_filter(client, message):
         else:
             await message.reply_text(f"<b>Requested Movie {search} ‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
 
-         try:
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
