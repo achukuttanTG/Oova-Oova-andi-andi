@@ -8,8 +8,6 @@ from re import findall
 from re import sub as re_sub
 from sys import executable
 
-aiohttpsession = ClientSession()
-
 async def make_carbon(code):
     url = "https://carbonara.vercel.app/api/cook"
     async with aiohttpsession.post(url, json={"code": code}) as resp:
