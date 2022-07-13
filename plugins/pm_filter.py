@@ -763,9 +763,9 @@ async def auto_filter(client, message):
         if imdb and imdb.get('poster'):
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=f"🏷 𝖳𝗂𝗍𝗅𝖾: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝖦𝖾𝗇𝗋𝖾: {imdb.get('genres')}\n📆 𝖸𝖾𝖺𝗋: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝖱𝖺𝗍𝗂𝗇𝗀: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10 </code> \n\n➲ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛɪɴɢ ɪɴ 5 ᴍɪɴᴜᴛᴇ", reply_markup=InlineKeyboardMarkup(btn))
         elif imdb:
-            fmsg = await message.reply_text(f"**🏷 𝖳𝗂𝗍𝗅𝖾**: <a href={imdb['url']}>{imdb.get('title')}</a>\n**🎭 𝖦𝖾𝗇𝗋𝖾**: {imdb.get('genres')}\n**📆 𝖸𝖾𝖺𝗋**: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n**🌟 𝖱𝖺𝗍𝗂𝗇𝗀**: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10 </code> \n\n➲ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛɪɴɢ ɪɴ 5 ᴍɪɴᴜᴛᴇ", reply_markup=InlineKeyboardMarkup(btn))
+            fmsg = await message.reply_text(f"**🏷 𝖳𝗂𝗍𝗅𝖾**: <a href={imdb['url']}>{imdb.get('title')}</a>\n**🎭 𝖦𝖾𝗇𝗋𝖾**: {imdb.get('genres')}\n**📆 𝖸𝖾𝖺𝗋**: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n**🌟 𝖱𝖺𝗍𝗂𝗇𝗀**: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10 </code>", reply_markup=InlineKeyboardMarkup(btn))
         else:
-            fmsg = await message.reply_text(f"<b>Requested Movie {search} ‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
+            fmsg = await message.reply_text(f"<b>𝖥𝗈𝗎𝗇𝖽 ✨ 𝖥𝗂𝗅𝖾𝗌 𝖥𝗈𝗋 𝖸𝗈𝗎𝗋 𝖰𝗎𝖾𝗋𝗒 #{search}</b>", reply_markup=InlineKeyboardMarkup(btn))
     
    
         await asyncio.sleep(DELETE_TIME)
