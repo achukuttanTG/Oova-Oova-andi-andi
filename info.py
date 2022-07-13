@@ -47,9 +47,10 @@ TG_MAX_SELECT_LEN = 100
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DKBOTXCHATS')
 P_TTTI_SHOW_OFF = bool((environ.get('P_TTTI_SHOW_OFF', False)))
 IMDB = bool((environ.get('IMDB', True)))
+DELETE_TIME = int(environ.get('DELETE_TIME', 190))
 SINGLE_BUTTON = bool((environ.get('SINGLE_BUTTON', False)))
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", 'None')
 LONG_IMDB_DESCRIPTION = bool(environ.get("LONG_IMDB_DESCRIPTION", True))
